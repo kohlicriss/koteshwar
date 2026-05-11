@@ -5,9 +5,13 @@ import Header from "@/components/Header";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-import archProduction from "@/assets/arch-production-grade.jpeg";
-import archEcommerce from "@/assets/arch-ecommerce.png";
-import archNotification from "@/assets/arch-notification.png";
+import archProduction from "@/assets/img/Architecture/ProductionGrade.jpeg";
+import archEcommerce from "@/assets/img/Architecture/ecommerce.svg";
+import archNotification from "@/assets/img/Architecture/Notification.svg";
+import archDeepAgents from "@/assets/img/Architecture/Deepagents.svg";
+import archKafka from "@/assets/img/Kafka.png";
+import archRedis from "@/assets/img/Redis.png";
+import archSecurity from "@/assets/img/Securoty.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -21,54 +25,54 @@ type Slide = {
 const slides: Slide[] = [
   {
     src: archProduction,
-    title: "ApiSynIQ — Production Architecture",
+    title: "Production-Grade Architecture",
     caption: "Go Gateway · Python Orchestrator · Java Resolver · pgvector",
     description:
       "Four purpose-built layers: a Go gateway for concurrent ingress, a Python LangGraph orchestrator, a Java RAG resolver backed by pgvector, and gRPC stitching it all together.",
   },
   {
     src: archEcommerce,
-    title: "E-commerce Microservices",
+    title: "E-commerce Platform with Microservices",
     caption: "Istio · gRPC · Kafka · Redis · Elasticsearch",
     description:
       "Polyglot microservices for catalog, cart, pricing, inventory, orders and notifications — wired through Istio, with gRPC for sync and Kafka for async eventing.",
   },
   {
+    src: archDeepAgents,
+    title: "Deep Learning Agents for Intelligent Decision-Making",
+    caption: "Neural Networks · Reinforcement Learning · Decision Trees",
+    description:
+      "Advanced AI agents utilizing deep neural networks, reinforcement learning algorithms, and decision tree models for autonomous and intelligent decision-making processes.",
+  },
+  {
     src: archNotification,
-    title: "Notification System",
+    title: "Notification Microservice with SSE, Redis, and Kafka",
     caption: "Streams · Consumer Groups · SSE · WebSockets",
     description:
       "Persistent message streams feed a consumer group of replicas. Cache stores connection metadata so messages are routed to the exact SSE/WebSocket consumer that owns the user.",
   },
-];
-
-// NOTE: Replace these placeholder srcs with the real diagrams later.
-// TODO[image]: drop Kafka diagram into src/assets/arch-kafka.png and import it here.
-// TODO[image]: drop Redis diagram into src/assets/arch-redis.png and import it here.
-// TODO[image]: drop Security diagram into src/assets/arch-security.png and import it here.
-slides.push(
   {
-    src: archEcommerce, // TODO[image]: replace with Kafka diagram
+    src: archKafka,
     title: "Event Streaming with Kafka",
     caption: "Topics · Partitions · Consumer Groups · Exactly-Once",
     description:
       "How I model topics, partitions and consumer groups for high-throughput event streaming with replay safety and exactly-once semantics.",
   },
   {
-    src: archNotification, // TODO[image]: replace with Redis diagram
+    src: archRedis,
     title: "Distributed Caching with Redis",
     caption: "Cluster · Sharding · Pub/Sub · Streams",
     description:
       "Redis as the hot path — sharded clusters for cache, pub/sub for fan-out, and streams for durable consumer-group semantics.",
   },
   {
-    src: archProduction, // TODO[image]: replace with Security diagram
+    src: archSecurity,
     title: "Zero-Trust Security Framework",
     caption: "mTLS · OAuth2 · Policy · Secrets Rotation",
     description:
       "Every service authenticates every request. mTLS between pods, OAuth2 at the edge, policy via OPA, and short-lived rotated secrets.",
   },
-);
+];
 
 const Architecture = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -88,11 +92,11 @@ const Architecture = () => {
 
         gsap.to(track, {
           x: -distance,
-          ease: "none",
+          ease: "power2.out",
           scrollTrigger: {
             trigger: section,
             pin: true,
-            scrub: 1,
+            scrub: 1.5,
             start: "top top",
             end: () => `+=${distance}`,
             invalidateOnRefresh: true,
@@ -157,7 +161,7 @@ const Architecture = () => {
       {!isSmall && (
         <section
           ref={sectionRef}
-          className="hidden md:block relative h-screen overflow-hidden bg-gradient-to-b from-background via-background to-muted/30"
+          className="hidden md:block relative h-screen overflow-hidden bg-gradient-to-b from-background via-background to-slate-900/20"
         >
           <div
             ref={trackRef}
