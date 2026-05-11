@@ -9,7 +9,7 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-    "homepage": "https://kohlicriss.github.io/koteshwar/"
+    "homepage": "https://github.com/KoteshwarChinnolla/KoteshwarChinnolla.github.io"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
