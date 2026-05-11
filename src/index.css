@@ -499,6 +499,10 @@ All colors MUST be HSL.
   background: hsl(var(--card));
 }
 .blog-prose .image-placeholder .muted { @apply opacity-60 text-xs; }
+.blog-prose img,
+.blog-prose .blog-prose-image {
+  @apply block w-full h-auto rounded-2xl my-6;
+}
 .blog-prose .image-container {
   @apply grid sm:grid-cols-2 gap-4 my-6;
 }

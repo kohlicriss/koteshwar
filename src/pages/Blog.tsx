@@ -1,7 +1,50 @@
+import { useMemo } from "react";
 import { Link, useParams } from "react-router-dom";
 import { ArrowLeft, Clock, BookOpen } from "lucide-react";
 import Header from "@/components/Header";
 import { getBlog, blogs } from "@/data/blogs";
+
+const imageModules = import.meta.glob("../assets/blogs/img/**/*.{png,jpg,jpeg,gif,svg}", {
+  eager: true,
+  as: "url",
+}) as Record<string, string>;
+
+const imageUrlMap = Object.fromEntries(
+  Object.entries(imageModules).flatMap(([key, url]) => {
+    const normalized = key.replace(/^\.{1,2}\//, "");
+    const entries: Array<[string, string]> = [[normalized, url]];
+
+    if (!normalized.startsWith("/")) {
+      entries.push([`/${normalized}`, url]);
+    }
+
+    if (normalized.startsWith("assets/")) {
+      entries.push([normalized.replace(/^assets\//, ""), url]);
+    }
+
+    if (normalized.startsWith("src/")) {
+      entries.push([normalized.replace(/^src\//, ""), url]);
+    }
+
+    return entries;
+  })
+);
+
+const resolveBlogImagePath = (src: string) => {
+  const normalized = src.replace(/^\.{1,2}\//, "").replace(/^\//, "");
+  return (
+    imageUrlMap[src] || imageUrlMap[`/${normalized}`] || imageUrlMap[normalized] || imageUrlMap[`assets/${normalized}`] || imageUrlMap[`src/${normalized}`]
+  );
+};
+
+const renderBlogHtml = (html: string) =>
+  html.replace(/<div\s+class="image-placeholder"\s+data-src="([^"]+)"[^>]*>[\s\S]*?<\/div>/gi, (_, src) => {
+    const resolved = resolveBlogImagePath(src);
+    if (!resolved) {
+      return "";
+    }
+    return `<img src="${resolved}" alt="Blog image" loading="lazy" class="blog-prose-image" />`;
+  });
 
 const Blog = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -22,6 +65,10 @@ const Blog = () => {
   // pick a related post (next in the list, wrapping)
   const idx = blogs.findIndex((b) => b.slug === blog.slug);
   const next = blogs[(idx + 1) % blogs.length];
+
+  const htmlBody = useMemo(() => {
+    return blog?.body ? renderBlogHtml(blog.body) : "";
+  }, [blog]);
 
   return (
     <div className="min-h-screen bg-background animate-fade-in">
@@ -59,7 +106,7 @@ const Blog = () => {
         {/* Body */}
         <article
           className="blog-prose max-w-3xl mx-auto"
-          dangerouslySetInnerHTML={{ __html: blog.body || "" }}
+          dangerouslySetInnerHTML={{ __html: htmlBody }}
         />
 
         {/* Up next */}

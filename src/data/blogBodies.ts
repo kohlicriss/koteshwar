@@ -27,7 +27,7 @@ export const blogBodies: Record<string, string> = {
                             machine is giving the desired results then we have to deploy our model in a real-time
                             environment this is where deployment comes into the picture.</p>
                         <div class="image-container">
-                            <div class="image-placeholder" data-src="../assets/img/DataScience/machine-learning-1.gif">📷 IMAGE: <code>../assets/img/DataScience/machine-learning-1.gif</code> — Machine Learning GIF <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
+                            <div class="image-placeholder" data-src="../assets/blogs/img/DataScience/machine-learning-1.gif">📷 IMAGE: <code>../assets/blogs/img/DataScience/machine-learning-1.gif</code> — Machine Learning GIF <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
                         </div>
                         <br>
                         <br>
@@ -120,19 +120,19 @@ export const blogBodies: Record<string, string> = {
                         </div>
                         <div class="image-container">
                             <div class="image-item">
-                                <div class="image-placeholder" data-src="../assets/img/DataScience/MacheneLearningWorkFlow/outlayers 2.jpg">📷 IMAGE: <code>../assets/img/DataScience/MacheneLearningWorkFlow/outlayers 2.jpg</code> — fig 1 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
+                                <div class="image-placeholder" data-src="../assets/blogs/img/DataScience/MacheneLearningWorkFlow/outlayers 2.jpg">📷 IMAGE: <code>../assets/blogs/img/DataScience/MacheneLearningWorkFlow/outlayers 2.jpg</code> — fig 1 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
                                 <p class="image-description">fig 1 : Scatter plot</p>
                             </div>
                             <div class="image-item">
-                                <div class="image-placeholder" data-src="../assets/img/DataScience/MacheneLearningWorkFlow/boxplot.png">📷 IMAGE: <code>../assets/img/DataScience/MacheneLearningWorkFlow/boxplot.png</code> — fig 2 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
+                                <div class="image-placeholder" data-src="../assets/blogs/img/DataScience/MacheneLearningWorkFlow/boxplot.png">📷 IMAGE: <code>../assets/blogs/img/DataScience/MacheneLearningWorkFlow/boxplot.png</code> — fig 2 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
                                 <p class="image-description">fig 2 : Box plot</p>
                             </div>
                             <div class="image-item">
-                                <div class="image-placeholder" data-src="../assets/img/DataScience/MacheneLearningWorkFlow/outliers_2.png">📷 IMAGE: <code>../assets/img/DataScience/MacheneLearningWorkFlow/outliers_2.png</code> — fig 3 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
+                                <div class="image-placeholder" data-src="../assets/blogs/img/DataScience/MacheneLearningWorkFlow/outliers_2.png">📷 IMAGE: <code>../assets/blogs/img/DataScience/MacheneLearningWorkFlow/outliers_2.png</code> — fig 3 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
                                 <p class="image-description">fig 3 : Z score</p>
                             </div>
                             <div class="image-item">
-                                <div class="image-placeholder" data-src="../assets/img/DataScience/MacheneLearningWorkFlow/Boxplot_vs_PDF.png">📷 IMAGE: <code>../assets/img/DataScience/MacheneLearningWorkFlow/Boxplot_vs_PDF.png</code> — fig 4 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
+                                <div class="image-placeholder" data-src="../assets/blogs/img/DataScience/MacheneLearningWorkFlow/Boxplot_vs_PDF.png">📷 IMAGE: <code>../assets/blogs/img/DataScience/MacheneLearningWorkFlow/Boxplot_vs_PDF.png</code> — fig 4 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
                                 <p class="image-description">fig 4 : Box plot vs PDF</p>
                             </div>
                         </div>
@@ -218,7 +218,7 @@ export const blogBodies: Record<string, string> = {
                         <h3>Data augmentation techniques</h3>
                         <dev class="image-container">
                             <div class="image-item">
-                                <div class="image-placeholder" data-src="../assets/img/DataScience/MacheneLearningWorkFlow/DataAug.png">📷 IMAGE: <code>../assets/img/DataScience/MacheneLearningWorkFlow/DataAug.png</code> — --image title-- <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
+                                <div class="image-placeholder" data-src="../assets/blogs/img/DataScience/MacheneLearningWorkFlow/DataAug.png">📷 IMAGE: <code>../assets/blogs/img/DataScience/MacheneLearningWorkFlow/DataAug.png</code> — --image title-- <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
                                 <p class="p" class="image-description">Data Augmentation techniques</p>
                             </div>
                         </dev>
@@ -241,23 +241,23 @@ export const blogBodies: Record<string, string> = {
                         </ul>
                         <div class="image-container">
                             <div class="image-item">
-                                <div class="image-placeholder" data-src="../assets/img/DataScience/MacheneLearningWorkFlow/augu1.gif">📷 IMAGE: <code>../assets/img/DataScience/MacheneLearningWorkFlow/augu1.gif</code> — fig 1 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
+                                <div class="image-placeholder" data-src="../assets/blogs/img/DataScience/MacheneLearningWorkFlow/augu1.gif">📷 IMAGE: <code>../assets/blogs/img/DataScience/MacheneLearningWorkFlow/augu1.gif</code> — fig 1 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
                                 <p class="image-description"> </p>
                             </div>
                             <div class="image-item">
-                                <div class="image-placeholder" data-src="../assets/img/DataScience/MacheneLearningWorkFlow/augu2.gif">📷 IMAGE: <code>../assets/img/DataScience/MacheneLearningWorkFlow/augu2.gif</code> — fig 2 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
+                                <div class="image-placeholder" data-src="../assets/blogs/img/DataScience/MacheneLearningWorkFlow/augu2.gif">📷 IMAGE: <code>../assets/blogs/img/DataScience/MacheneLearningWorkFlow/augu2.gif</code> — fig 2 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
                                 <p class="image-description"></p>
                             </div>
                             <div class="image-item">
-                                <div class="image-placeholder" data-src="../assets/img/DataScience/MacheneLearningWorkFlow/augu3.gif">📷 IMAGE: <code>../assets/img/DataScience/MacheneLearningWorkFlow/augu3.gif</code> — fig 3 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
+                                <div class="image-placeholder" data-src="../assets/blogs/img/DataScience/MacheneLearningWorkFlow/augu3.gif">📷 IMAGE: <code>../assets/blogs/img/DataScience/MacheneLearningWorkFlow/augu3.gif</code> — fig 3 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
                                 <p class="image-description"></p>
                             </div>
                             <div class="image-item">
-                                <div class="image-placeholder" data-src="../assets/img/DataScience/MacheneLearningWorkFlow/augu4.gif">📷 IMAGE: <code>../assets/img/DataScience/MacheneLearningWorkFlow/augu4.gif</code> — fig 4 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
+                                <div class="image-placeholder" data-src="../assets/blogs/img/DataScience/MacheneLearningWorkFlow/augu4.gif">📷 IMAGE: <code>../assets/blogs/img/DataScience/MacheneLearningWorkFlow/augu4.gif</code> — fig 4 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
                                 <p class="image-description"></p>
                             </div>
                             <div class="image-item">
-                                <div class="image-placeholder" data-src="../assets/img/DataScience/MacheneLearningWorkFlow/augu5.gif">📷 IMAGE: <code>../assets/img/DataScience/MacheneLearningWorkFlow/augu5.gif</code> — fig 5 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
+                                <div class="image-placeholder" data-src="../assets/blogs/img/DataScience/MacheneLearningWorkFlow/augu5.gif">📷 IMAGE: <code>../assets/blogs/img/DataScience/MacheneLearningWorkFlow/augu5.gif</code> — fig 5 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
                                 <p class="image-description"></p>
                             </div>
                         </div>
@@ -330,7 +330,7 @@ export const blogBodies: Record<string, string> = {
                         <SS>Most widely used text augmentation techniques are as follows</SS><br><br>
                         <dev class="image-container">
                             <div class="image-item">
-                                <div class="image-placeholder" data-src="../assets/img/DataScience/MacheneLearningWorkFlow/textaug.png">📷 IMAGE: <code>../assets/img/DataScience/MacheneLearningWorkFlow/textaug.png</code> — --image title-- <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
+                                <div class="image-placeholder" data-src="../assets/blogs/img/DataScience/MacheneLearningWorkFlow/textaug.png">📷 IMAGE: <code>../assets/blogs/img/DataScience/MacheneLearningWorkFlow/textaug.png</code> — --image title-- <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
                                 <p class="p" class="image-description">fig 1 : Artificial Neural Network</p>
                             </div>
                         </dev>
@@ -413,11 +413,11 @@ export const blogBodies: Record<string, string> = {
                         </ul>
                         <div class="image-container">
                             <div class="image-item">
-                                <div class="image-placeholder" data-src="../assets/img/DataScience/MacheneLearningWorkFlow/GAN.png">📷 IMAGE: <code>../assets/img/DataScience/MacheneLearningWorkFlow/GAN.png</code> — fig 1 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
+                                <div class="image-placeholder" data-src="../assets/blogs/img/DataScience/MacheneLearningWorkFlow/GAN.png">📷 IMAGE: <code>../assets/blogs/img/DataScience/MacheneLearningWorkFlow/GAN.png</code> — fig 1 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
                                 <p class="image-description">GAN(Generative Adversarial Network)</p>
                             </div>    
                             <div class="image-item">
-                                <div class="image-placeholder" data-src="../assets/img/DataScience/MacheneLearningWorkFlow/AutoEncoder.png">📷 IMAGE: <code>../assets/img/DataScience/MacheneLearningWorkFlow/AutoEncoder.png</code> — fig 1 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
+                                <div class="image-placeholder" data-src="../assets/blogs/img/DataScience/MacheneLearningWorkFlow/AutoEncoder.png">📷 IMAGE: <code>../assets/blogs/img/DataScience/MacheneLearningWorkFlow/AutoEncoder.png</code> — fig 1 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
                                 <p class="image-description">Virtual autoencoder</p>
                             </div>
                         </div>
@@ -440,7 +440,7 @@ export const blogBodies: Record<string, string> = {
                         <p>Some of the feature selection techniques are <SS>Filter methods</SS>,<SS>Wrapper methods</SS>,<SS>Embedding method</SS></p>
                         <div class="image-container">
                             <div class="image-item">
-                                <div class="image-placeholder" data-src="../assets/img/DataScience/MacheneLearningWorkFlow/DR1.png">📷 IMAGE: <code>../assets/img/DataScience/MacheneLearningWorkFlow/DR1.png</code> — fig 1 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
+                                <div class="image-placeholder" data-src="../assets/blogs/img/DataScience/MacheneLearningWorkFlow/DR1.png">📷 IMAGE: <code>../assets/blogs/img/DataScience/MacheneLearningWorkFlow/DR1.png</code> — fig 1 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
                                 <p class="image-description">Dimensionality reduction</p>
                             </div>    
                         </div>
@@ -506,7 +506,7 @@ print(pca_df)</code></pre></div>
                         <p>Every thing until this is fine and works well on our local system. but real challenge occurs when we need to present the same thing to public Webpage. so here is where the Aws comes into picture and we need to deploy our chatbot in a real-time environment. firstly AWS Bedrocks and Langchain needs to be implemented with Fast API. then here comes Docker where a Docker image is bult for Fast API application . then this Docker Image is deployed into EC2 instance which is running on AWS. the public url given by EC2 then integrated to API gateway so we can push and get response. then API gateway deployed URL is then used in frontend application, to get responses. coming to the data storage this is basically through AWS Lambda and Dynamodb. Where API gateway link is generated to AWS Lambda and DynamoDB integration and used in frontend application.</p>
                         <div class="image-container">
                             <div class="image-item">
-                                <div class="image-placeholder" data-src="../assets/img/chatbotblog/chatbotworkflow.png">📷 IMAGE: <code>../assets/img/chatbotblog/chatbotworkflow.png</code> — fig 1 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
+                                <div class="image-placeholder" data-src="../assets/blogs/img/chatbotblog/chatbotworkflow.png">📷 IMAGE: <code>../assets/blogs/img/chatbotblog/chatbotworkflow.png</code> — fig 1 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
                                 <p class="image-description">fig 1 : work flow</p>
                             </div>
                         </div>
@@ -755,11 +755,11 @@ CMD ["uvicorn", "app.app:app", "--host", "0.0.0.0", "--port", "5000"]</code></pr
                         <p> now connecting the instance then installing the docker on the instance, then running the pulling out the docker from the dockerHub then running the container on the instance.</p>
                         <div class="image-container">
                             <div class="image-item">
-                                <div class="image-placeholder" data-src="../assets/img/chatbotblog/connect docker.png">📷 IMAGE: <code>../assets/img/chatbotblog/connect docker.png</code> — fig 1 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
+                                <div class="image-placeholder" data-src="../assets/blogs/img/chatbotblog/connect docker.png">📷 IMAGE: <code>../assets/blogs/img/chatbotblog/connect docker.png</code> — fig 1 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
                                 <p class="image-description">fig 1 : connect</p>
                             </div>
                             <div class="image-item">
-                                <div class="image-placeholder" data-src="../assets/img/chatbotblog/connect docker 2.png">📷 IMAGE: <code>../assets/img/chatbotblog/connect docker 2.png</code> — fig 1 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
+                                <div class="image-placeholder" data-src="../assets/blogs/img/chatbotblog/connect docker 2.png">📷 IMAGE: <code>../assets/blogs/img/chatbotblog/connect docker 2.png</code> — fig 1 <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
                                 <p class="image-description">fig 2 : connect to the instance</p>
                             </div>
                         </div>
@@ -801,7 +801,7 @@ sudo systemctl enable docker</code></pre></div>
                         <br><pa> So a neural network is basically the connections of nodes. where this nodes are grouped as layers. this layers are classified as input layers, hidden layers and output layers. the nodes in a input layer represents input features and the nodes in output layer represent the predicted output. But the nodes in the hidden layers has some suppurate functionality where it is responsible for the mathematical operations such as Matrix multiplication and activation functions. Each node in the hidden layer is capable of generating outputs by this operations. the nodes in one layer are connected to the nodes in the other layer. this connections are assigned with certain values this are known as the weights. this weights involve in the Matrix multiplication. Each node is assigned with a bias value. Bias is added to the Matrix multiplication to get the output. this output is then passed through the activation function to produce the final output of that particular node. so output of previous layer acts as the input to the next layer. The output of the last layer is the final output. </pa><br>
                         <div class="image-container">
                             <div class="image-item">
-                                <div class="image-placeholder" data-src="../assets/img/ANN/nn1.jpg">📷 IMAGE: <code>../assets/img/ANN/nn1.jpg</code> — --image title-- <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
+                                <div class="image-placeholder" data-src="../assets/blogs/img/ANN/nn1.jpg">📷 IMAGE: <code>../assets/blogs/img/ANN/nn1.jpg</code> — --image title-- <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
                                 <p class="p" class="image-description">fig 1 : Artificial Neural Network</p>
                             </div>
                         </div>
@@ -832,7 +832,7 @@ sudo systemctl enable docker</code></pre></div>
                         <br><p><SS>Why we use weights? </SS> Weights are something that can be interrupted to get our desired output. you can also consider it as the set of values that can be multiplied to the input such that we can get our output. so we always try to change the weights until we get the perfect output. the final weights are used as the multiplicand to the new input to get the prediction result. As you can see in the frame one each node output can be calculated by multiplying that outputs to the weights. The weights are used so that the model can learn the correlation between the inputs and outputs.</p><br>
                         <dev class="image-container">
                             <div class="image-item" style="width: 50%; margin: 0 auto;">
-                                <div class="image-placeholder" data-src="../assets/img/ANN/nn2.jpg">📷 IMAGE: <code>../assets/img/ANN/nn2.jpg</code> — --image title-- <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
+                                <div class="image-placeholder" data-src="../assets/blogs/img/ANN/nn2.jpg">📷 IMAGE: <code>../assets/blogs/img/ANN/nn2.jpg</code> — --image title-- <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
                                 <p class="p" class="image-description">fig 2 : Weights</p>
                             </div>
                         </dev>
@@ -846,7 +846,7 @@ sudo systemctl enable docker</code></pre></div>
                         <br><br><br>
                         <dev class="image-container">
                             <div class="image-item">
-                                <div class="image-placeholder" data-src="../assets/img/ANN/af.png">📷 IMAGE: <code>../assets/img/ANN/af.png</code> — --image title-- <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
+                                <div class="image-placeholder" data-src="../assets/blogs/img/ANN/af.png">📷 IMAGE: <code>../assets/blogs/img/ANN/af.png</code> — --image title-- <span class="muted">(original asset — drop into <code>src/assets/blogs/</code> and replace)</span></div>
                                 <p class="p" class="image-description">fig 3 : Activation functions</p>
                             </div>
                        </div>
